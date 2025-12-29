@@ -1,0 +1,24 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "com.example.shadowqibla"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.shadowqibla"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {}
